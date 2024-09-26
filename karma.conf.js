@@ -33,7 +33,8 @@ module.exports = function (config) {
       ]
     },
     reporters: ['progress', 'kjhtml'],
-    browsers: ['Chrome'],
+    browsers: ['ChromeHeadless'],  // Usar ChromeHeadless en lugar de Chrome
     restartOnFileChange: true
   });
 };
+
