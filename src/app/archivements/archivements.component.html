@@ -1,0 +1,16 @@
+<h3>Logros</h3>
+<table border="0">
+    <ul *ngFor="let logros of archivements">
+        <li>
+            <tr>
+                <td>{{ logros.fecha }}</td>
+            </tr>
+            <tr>
+                <td>{{ logros.titulo }}</td>
+            </tr>
+            <tr>
+                <td>{{ logros.descripcion }}</td>
+            </tr>
+        </li>
+    </ul>
+</table>

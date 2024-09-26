@@ -1,0 +1,48 @@
+/* Estilo general del contenedor de habilidades */
+.skills {
+  margin: 20px 0; /* Margen superior e inferior */
+  text-align: center; /* Centrar el texto */
+}
+
+/* Título de habilidades */
+.skills h3 {
+  font-size: 24px; /* Tamaño del título */
+  font-weight: 600; /* Negrita */
+  margin-bottom: 16px; /* Espacio debajo del título */
+  color: #333; /* Color oscuro */
+}
+
+/* Estilo para la lista de habilidades */
+.skills ul {
+  list-style: none; /* Sin estilo de lista */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+}
+
+/* Estilo para cada habilidad */
+.skills li {
+  font-size: 16px; /* Tamaño de fuente */
+  color: #555; /* Color gris */
+  margin: 8px 0; /* Espacio entre habilidades */
+  padding: 8px 12px; /* Espaciado interno para cada ítem */
+  border-radius: 4px; /* Bordes redondeados */
+  background: #f0f0f0; /* Fondo claro para cada habilidad */
+  transition: background 0.3s; /* Transición suave para hover */
+}
+
+/* Efecto hover para habilidades */
+.skills li:hover {
+  background: #e0e0e0; /* Color más oscuro al pasar el ratón */
+}
+
+/* Asegurarse de que el fondo se vea bien en dispositivos móviles */
+@media (max-width: 600px) {
+  .skills h3 {
+      font-size: 20px; /* Tamaño de fuente más pequeño en pantallas pequeñas */
+  }
+
+  .skills li {
+      font-size: 14px; /* Tamaño de fuente más pequeño para las habilidades */
+  }
+}
+

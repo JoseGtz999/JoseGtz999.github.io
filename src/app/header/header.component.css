@@ -1,0 +1,69 @@
+/* Estilo general de la tabla de perfil */
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden; /* Para redondear las esquinas */
+  background: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las celdas de la tabla */
+td {
+  padding: 16px;
+  vertical-align: top; /* Alinear texto al inicio */
+}
+
+/* Información de perfil */
+.profile-info {
+  flex: 1; /* Asegura que la celda ocupe el espacio restante */
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin: 0 0 8px; /* Espacio entre nombre y objetivo */
+}
+
+.profile-goal {
+  font-size: 16px;
+  font-weight: 400;
+  color: #666;
+  margin: 0; /* Sin márgenes */
+}
+
+/* Estilo para la foto */
+.profile-photo img {
+  border-radius: 50%; /* Hacer la imagen circular */
+  border: 2px solid #ddd; /* Borde ligero */
+}
+
+/* Estilo para contacto */
+.profile-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.profile-contact li {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0; /* Espacio entre líneas de contacto */
+}
+
+/* Asegurarse de que el fondo se vea bien en dispositivos móviles */
+@media (max-width: 600px) {
+  .profile-name {
+      font-size: 20px;
+  }
+
+  .profile-goal {
+      font-size: 14px;
+  }
+
+  td {
+      padding: 12px;
+  }
+}

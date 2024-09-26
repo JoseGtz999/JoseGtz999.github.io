@@ -1,0 +1,25 @@
+/* Estilo general del contenedor de la aplicación */
+.app-container {
+    margin: 20px; /* Margen alrededor de la aplicación */
+}
+
+/* Estilo para el contenido principal */
+.main-content {
+    display: flex; /* Usar Flexbox para el diseño */
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+/* Estilo para la columna izquierda */
+.left-column {
+    flex: 2; /* Columna más ancha */
+}
+
+/* Estilo para la columna derecha */
+.right-column {
+    flex: 1; /* Columna más estrecha */
+}
+
+/* Estilo para el encabezado */
+app-header {
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
