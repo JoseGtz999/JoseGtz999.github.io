@@ -1,0 +1,61 @@
+/* Estilo general del contenedor de experiencia */
+.experience-container {
+  margin: 20px 0; /* Margen superior e inferior */
+}
+
+/* Estilo para cada elemento de experiencia */
+.experience-item {
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px; /* Esquinas redondeadas */
+  padding: 16px; /* Espaciado interno */
+  margin-bottom: 20px; /* Espacio entre experiencias */
+  background: #f9f9f9; /* Fondo claro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+/* Estilo para la cabecera de experiencia */
+.experience-header {
+  display: flex; /* Flexbox para alinear fecha y ubicación */
+  justify-content: space-between; /* Espacio entre elementos */
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+  color: #666; /* Color gris */
+}
+
+/* Estilo para el puesto y la empresa */
+.experience-position,
+.experience-company {
+  font-size: 16px; /* Tamaño de fuente */
+  color: #333; /* Color más oscuro */
+  font-weight: 600; /* Negrita */
+  margin: 4px 0; /* Espacio entre texto */
+}
+
+/* Estilo para logros */
+.experience-achievements {
+  margin-top: 8px; /* Espacio superior */
+  font-size: 14px; /* Tamaño de fuente para logros */
+}
+
+/* Estilo para la lista de logros */
+.experience-achievements ul {
+  list-style: none; /* Sin estilo de lista */
+  padding: 0; /* Sin padding */
+  margin: 0; /* Sin margen */
+}
+
+.experience-achievements li {
+  color: #555; /* Color gris para logros */
+  margin: 4px 0; /* Espacio entre logros */
+}
+
+/* Asegurarse de que el fondo se vea bien en dispositivos móviles */
+@media (max-width: 600px) {
+  .experience-header {
+      flex-direction: column; /* Colocar fecha y ubicación en columna en pantallas pequeñas */
+  }
+
+  .experience-header span {
+      margin-bottom: 4px; /* Espacio entre fecha y ubicación */
+  }
+}
+
